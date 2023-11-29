@@ -1,14 +1,14 @@
 #!/bin/bash
 
-#################################################################################################################################
-#                                                                                                                               #
-#    Name		      : spark_hwc_info_collect.sh                                                                                   #
-#    Purpose		  : Used to generate the spark-shell/pyspark command and run sample code in CDP cluster                         #
-#    Author		    : Ranga Reddy                                                                                                 #
-#    Created Date	: 02-Feb-2022                                                                                                 #   
-#    Version		  : v1.0													                                            												          #
-#                                                                                                                               #
-#################################################################################################################################
+#################################################################################################################
+#                                                                                                               #
+#    Name		      	:	spark_hwc_info_collect.sh                                                           #
+#    Purpose		  	:	Used to generate the spark-shell/pyspark command and run sample code in CDP cluster #
+#    Author		    	:	Ranga Reddy                                                                         #
+#    Created Date		:	02-Feb-2022                                                                         #   
+#    Version		  	:	v1.0													                            #
+#                                                                                                               #
+#################################################################################################################
 
 # log_info() is used to log the message based on logging level. By default logging level will be INFO.
 log_info() {
